@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Formulario</title>
+    </head>
+
+    <body>
+        <form>
+            <!--Así se hace para insertar datos de los clientes-->
+            <input type="text" value="Nombre" required name="username">
+            <input type="submit" value="Mandar">
+            <input type="email" placeholder="example@test.com" required name="email">
+            <input type="password">
+            <input type="checkbox">
+            <input type="radio">
+            <input type="file">
+            <input type="date">
+            <!--Existe 4 atributos como el type que son importante:
+            
+            *required: campos obligatorios
+            
+            *name: identificador de los inputs como se llaman los campos para el servidor (Tiene una conexion como con la base de datos por decirlo así), no debe de usarse los mismo nombre para diferentes cosas
+            
+            *placeholder: lo mismo que value pero este no se tiene que eliminar, te deja escribir desde antes
+
+            value: lo que recibe el servidor un valor de ese input
+
+            minlength: para poner minimos de caracteres
+            maxlength: para poner maximos de caracteres
+            -->
+        </form>
+    </body>
+</html>
