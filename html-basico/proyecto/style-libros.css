@@ -1,0 +1,37 @@
+body{
+    background-color: #142157;
+    font-family: sans-serif;
+    color: #fffc;
+}
+
+h1{
+    margin: auto;
+    text-align: center;
+    margin: 30px;
+}
+
+.content{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    text-align:center;
+
+}
+
+.nav{
+    font-size: 13px;
+    text-align:center;
+    text-transform: uppercase;
+    padding-left: 5px;
+    margin: 20px;
+    color: #0bc;
+}
+
+.list{
+    margin: 10px;
+}
+
+.img-list{
+    width: 250px;
+}
+
+
