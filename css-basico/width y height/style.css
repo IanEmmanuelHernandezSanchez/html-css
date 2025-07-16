@@ -1,0 +1,19 @@
+div{
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+}
+
+h1{
+    background-color: red;
+    height: 100px; ;
+}
+
+input{
+    width: 80%;
+
+}
+
+form{
+    width: 300px;
+}

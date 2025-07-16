@@ -1,0 +1,34 @@
+/*Así podemos crear nuestra propia tipografia
+le hacemos un link a este archivo con el archivo html y de ahi en tu archivo css en font
+family pones el nombre que le diste a tu topografia
+*/
+
+@font-face {
+    font-family: "Monserrat";
+    src: url(fonts/Montserrat-ExtraLight.ttf) format("truetype");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Monserrat"; /*Este es el nombre que le puedes cambiar*/
+    src: url(fonts/Montserrat-Regular.ttf) format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Monserrat";
+    src: url(fonts/Montserrat-Bold.ttf) format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Monserrat";
+    src: url(fonts/Montserrat-ExtraBold.ttf) format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Monserrat";
+    src: url(fonts/Montserrat-Black.ttf) format("truetype");
+    font-weight: 900;
+}

@@ -1,0 +1,102 @@
+<!--
+Este proyecto abarca lo que sería solamente HTML sin estilos
+Esto con el uso de los recursos aprendidos mediante esta sección del curso de HTML y CSS de 24 horas
+-->
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Ian´s blog</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!--Sección parrafos y encabezados-->
+        <h1 class="title">Mi blog personal</h1>
+
+        <div class="card">
+        
+            <img class="card-img" src="imagenes/ian.jpg" alt="Ian Emmanuel, mi persona">        
+        
+            <h3 class="card-subtitle">Quien soy</h3>
+        
+            <p class="card-content">Bueno como ya la mayoría ya me conoce, no indagaré mucho en mi persona para eso se pueden poner en contacto conmigo al rellenar un formulario que será un enlace en otra pagina. Soy una persona de 21 años que cursará 8vo semestre de universidad en mi alma mater Instituto Tecnologico de Veracruz, ando haciendo cursos este verano cuando debería haberlo hecho desde hace tiempo, pero siempre se es joven así que necesito apurarme para comprender el desarrollo web y de ahi especializarme, ultimamente me ha gustado la rama de ciberseguridad así que tal vez opte por irme ahí y por eso me deseo muy éxito. </p>
+        
+        </div>
+
+        <div class="card mini-card">
+            <h3 class="subtitle">Lenguajes que manejo junto con su nivel</h3>
+        
+            <ul class="card-content">
+                <li>Java: Básico</li>
+                <li>Python: Básico</li>
+                <li>JavaScript: Básico</li>
+                <li>C: Básico</li>
+                <li>C++: Básico</li>
+            </ul>
+        
+        </div>
+
+        <div class="card mini-card">
+        <h3 class="subtitle">Tecnologias que manejo</h3>
+        <ul class="card-content">
+            <li>Paqueteria de Office</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Git</li>
+            <li>Github</li>
+        </ul>
+        </div>
+
+
+        <!--Seccion listas -->
+        <div class="card mini-card">
+            <h3 class="subtitle">Rutina diaria marcado ordenada</h3>
+            <p class="card-content">Tengo una rutina de mi dia a día, donde todos los días cuentan por igual, ninguno es más importante que el otro</p>
+            <ol class="card-content">
+                <li>Despertarme</li>
+                <li>Desayunar</li>
+                <li>Alistarme para irme al gym</li>
+                <li>Estudiar en youtube</li>
+                <li>Dormir temprano</li>
+            </ol>
+        </div>
+
+        <h3 class="subtitle">Mis gustos</h3>
+        <p class="card-content">Al momento de hacer click en alguno de los enlaces, hablaré acerca más de mis gustos</p>
+        <ul class="card-content">
+            <li1><a class="url" href="Gym.html"  title="Rutinas">|Fortalecerme en el gym|</a></li1>
+            <li2><a class="url" href="Libros.html" title="Libros que me gustan">|Estudiar leyendo libros y viendo cursos|</a></li2>
+            <li3><a class="url" href="Restaurantes.html" title="Restaurantes que me gustan">|Visitar Restaurantes|</a></li3>
+        </ul>
+
+        <h3 class="subtitle">Contactame</h3>
+
+        <div class="card-content">
+        <a href="https://www.facebook.com/ian.emmanuel.5494" target="_blank">
+            <img src="imagenes/face.jpg" alt="Logo Facebook" title="Ian Facebook">
+        </a>
+
+        <a href="https://www.instagram.com/lanhzsz/" target="_blank">
+            <img src="imagenes/instagram.jpg" alt="Logo instagram" title="Ian instagram">
+        </a>       
+        </div>
+        
+        
+        <!--Formulario-->
+        <p class="card-content">Si quieres que te escriba de manera privada en algun otro medio rellena este formulario</p>
+        <form class="card-content">
+            Nombre 
+            <input class="card-input" type="text" placeholder="Jonh Doe">
+            Celular <!--Los espacio en blanco se estan contando debe de buscar una forma de que no-->
+            <input class="card-input" type="number" placeholder="(+00) 229 321 7535" required >
+            Correo
+            <input class="card-input" type="email" placeholder="example@test.com" required>
+
+            <input class="boton" type="reset">
+            <input class="boton" type="submit" value="Enviar Formulario"> 
+        </form>
+        
+    </body>
+
+</html>
